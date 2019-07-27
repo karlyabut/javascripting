@@ -1,4 +1,3 @@
-function eat(food) {
-  return food + ' tasted really good.';
-}
+const eat = (food) => `${food} tastes really good`;
+
 console.log(eat("bananas"));
