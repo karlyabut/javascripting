@@ -1,4 +1,5 @@
-var pets = ['cat', 'dog', 'rat'];
+let pets = ['cat', 'dog', 'rat'];
+// For loop
 for(var i = 0; i < pets.length; i++){
   pets[i] = pets[i] + 's';
 };
